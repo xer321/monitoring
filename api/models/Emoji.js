@@ -11,6 +11,15 @@ module.exports = {
 
     text: {
       type: 'string'
+    },
+    owner: {
+      type: 'json'
+    //
+    //   model: 'User'
+    // },
+    // leastFavoriteOf: {
+    //   collection: 'User',
+    //   via: 'leastFavoriteEmojis'
     }
 
   }

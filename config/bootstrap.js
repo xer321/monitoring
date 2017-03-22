@@ -11,18 +11,18 @@
 
 module.exports.bootstrap = function(cb) {
 
-  $.fadeIn()[{
-    text: ':)'
-  }, {
-    text: ':('
-  }]).exec(function (err, result){
-    if (err) {
-      // if error
-    }
-    else {
-      // if ok
-    }
-  });
+  // $.fadeIn()[{
+  //   text: ':)'
+  // }, {
+  //   text: ':('
+  // }]).exec(function (err, result){
+  //   if (err) {
+  //     // if error
+  //   }
+  //   else {
+  //     // if ok
+  //   }
+  // });
   // It's very important to trigger this callback method when you are finished
   // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
   cb();

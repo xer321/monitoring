@@ -32,9 +32,19 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
+  // '/': {
+  //   controller: 'UserController',
+  //   action: 'findOne'
+  // },
+  '/:screenName' : {
+    controller: 'UserController',
+    action: 'findOne'
   }
+
+  // 'emoji/:id/takeover' : {
+  //   controller: 'EmojiController',
+  //   action: 'associateWithUser'
+  // }
 
   /***************************************************************************
   *                                                                          *

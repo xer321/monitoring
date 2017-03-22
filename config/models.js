@@ -17,7 +17,7 @@ module.exports.models = {
   * connections (see `config/connections.js`)                                *
   *                                                                          *
   ***************************************************************************/
-  // connection: 'localDiskDb',
+   connection: 'localMongoDB',
 
   /***************************************************************************
   *                                                                          *
@@ -27,10 +27,10 @@ module.exports.models = {
   * See http://sailsjs.org/#!/documentation/concepts/ORM/model-settings.html  *
   *                                                                          *
   ***************************************************************************/
-<<<<<<< HEAD
+
    migrate: 'alter'
-=======
+
   // migrate: 'alter'
->>>>>>> 042d0c5d6086705228feac6e6c6031561e12552d
+
 
 };
