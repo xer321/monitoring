@@ -13,13 +13,11 @@ angular.module('Platzi').controller('BaseCtrl', ['$scope', function ($scope){
         $scope.apply();
         break;
     }
-  });
-  $scope.emojis = [{
+  });  $scope.emojis = [{
     id: 123456,
     text: ':)'
   },
   {
     id: 12345,
     text: ':('
-  }];
-}]);
+  }];}]);
