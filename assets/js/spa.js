@@ -14,6 +14,7 @@ angular.module('Platzi').controller('BaseCtrl', ['$scope', function ($scope){
         break;
     }
   });
+<<<<<<< HEAD
 
   $scope.emojis = [{
     id: 123456,
@@ -23,4 +24,6 @@ angular.module('Platzi').controller('BaseCtrl', ['$scope', function ($scope){
     id: 12345,
     text: ':('
   }];
+=======
+>>>>>>> 042d0c5d6086705228feac6e6c6031561e12552d
 }]);
